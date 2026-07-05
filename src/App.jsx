@@ -8,7 +8,6 @@ import SectionFive from "./sections/section5";
 import SectionSix from "./sections/section6";
 import SectionSeven from "./sections/section7";
 import Footer from "./sections/footer";
-// import HeaderModal from "./sections/header-modal";
 const App = () => {
     return (
         <BrowserRouter>
@@ -22,7 +21,6 @@ const App = () => {
                 <SectionSix />
                 <SectionSeven />
                 <Footer />
-                {/* <HeaderModal /> */}
             </div>
         </BrowserRouter>
     );
