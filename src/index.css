@@ -936,7 +936,7 @@ li {
         flex-direction: column;
         gap: 15px;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .footer-media {
@@ -945,9 +945,9 @@ li {
 
     .footer-nav a {
         font-weight: 300;
-        font-size: 13px;
+        font-size: 12px;
         justify-content: space-between;
-        gap: 10px;
+        gap: 0;
     }
 
     /* DRAWER STYLES */
