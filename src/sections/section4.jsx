@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 const SectionFour = () => {
     const SpecialFoods = [
@@ -48,18 +48,21 @@ const SectionFour = () => {
                 <button className='show-btn'>show all</button>
             </div>
             <Swiper
-                pagination={{
-                    type: "fraction",
-                    className: "pagination",
-                }}
+                // pagination={{
+                //     type: "fraction",
+                //     className: "pagination",
+                // }}
                 navigation={true}
                 breakpoints={{
-                    320: { slidesPerView: 3 },
-                    768: { slidesPerView: 6 },
+                    370: { slidesPerView: 3 },
+                    768: { slidesPerView: 4 },
+                    1400: { slidesPerView: 7 },
                 }}
-                modules={[Pagination, Navigation]}
-                className='mySwiper'
+                modules={[Navigation]}
+                className='mySwiper second-swiper'
                 slidesPerView={8}
+                spaceBetween={10}
+                loop={true}
             >
                 {SpecialFoods.map((foodicon) => {
                     return (

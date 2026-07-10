@@ -1,7 +1,7 @@
 const SectionFive = () => {
     return (
         <div className='section5-main'>
-            <div className='section5'>
+            <div className='section5 container'>
                 <div>
                     <div className='yellow'>
                         <h1>1</h1>

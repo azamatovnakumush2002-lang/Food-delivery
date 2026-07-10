@@ -19,7 +19,7 @@ const Header = () => {
                             <Icons.BasketIcon /> 0
                         </button>
                         <button className='line-btn' onClick={setDrawerOpen}>
-                            <Icons.LineIcon />
+                            <Icons.LineIcon className='line-img' />
                         </button>
                     </div>
                 </div>
