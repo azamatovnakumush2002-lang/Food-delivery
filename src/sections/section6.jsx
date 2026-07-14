@@ -1,3 +1,4 @@
+import "../css/section6.css";
 const SectionSix = () => {
     return (
         <div className='map container'>

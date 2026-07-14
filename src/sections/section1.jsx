@@ -1,5 +1,5 @@
 import Icons from "../icons";
-
+import "../css/section1.css";
 const SectionOne = () => {
     return (
         <div style={{ marginBlock: "25px 48px" }} className='container'>
@@ -18,7 +18,7 @@ const SectionOne = () => {
                     </div>
                 </div>
 
-                <div style={{ display: "flex" }}>
+                <div className='section1-img'>
                     <img className='first-img' src='rucola-png.png' alt='img' />
                     <img
                         className='second-img'

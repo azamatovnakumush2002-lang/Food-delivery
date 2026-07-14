@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Icons from "../icons";
 import { useState } from "react";
+import "../css/header.css";
 
 const Header = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
@@ -8,9 +9,7 @@ const Header = () => {
         <div>
             <div>
                 <div className='header-main-div container'>
-                    <Link>
-                        <img src='Logo.png' alt='img' className='logotip' />
-                    </Link>
+                    <img src='Logo.png' alt='img' className='logotip' />
                     <div className='header-buttons'>
                         <button className='btn'>
                             <Icons.UserIcon /> Log in

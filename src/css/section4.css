@@ -1,0 +1,73 @@
+/* SECTION 4 STYLES */
+.section4-main {
+    margin-block: 50px;
+}
+
+.section4-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 145px;
+    height: 136px;
+    padding: 24px;
+    border: 1px solid rgb(249, 247, 247);
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01);
+}
+
+.second-swiper {
+    margin-block: 40px;
+}
+
+@media(max-width:900px) {
+    .section4-main {
+        margin-block: 40px;
+    }
+
+    .section4-div h2 {
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .section4-div button {
+        font-size: 14px;
+        line-height: 20px;
+        width: 80px;
+        height: 30px;
+        font-weight: 400;
+    }
+
+    .card {
+        width: 130px;
+        height: 120px;
+        padding: 15px;
+        margin-left: 10px;
+    }
+
+    .second-swiper {
+        margin-block: 10px;
+    }
+}
+
+@media(max-width:798px) {
+    .card {
+        width: 130px;
+        height: 120px;
+        padding: 15px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .card {
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+        margin-left: 0;
+    }
+}

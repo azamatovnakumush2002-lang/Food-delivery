@@ -1,0 +1,120 @@
+/* SECTION3 STYLES */
+.section3 {
+    background-color: #F2F4FA;
+}
+
+.section3-main {
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px;
+    align-items: center;
+}
+
+.section3-text {
+    max-width: 364px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121232;
+    letter-spacing: 0.5%;
+    margin-top: 15px;
+}
+
+input {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 24px 68px 24px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(144, 147, 166, 1);
+}
+
+.send-btn {
+    border-radius: 4px;
+    background-color: rgba(183, 156, 16, 1);
+    padding: 26px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #dddcd6ff;
+}
+
+@media(max-width:1024px) {
+    .section3-main {
+        padding: 70px 90px;
+    }
+
+    .section3-h2 {
+        font-size: 24px;
+        line-height: 44px;
+    }
+
+    .section3-text {
+        max-width: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+
+    input {
+        padding: 10px 30px 10px 10px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .send-btn {
+        padding: 10px 14px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:860px) {
+    .section3-main {
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section3-text {
+        max-width: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media(max-width:378px) {
+    .section3-main {
+        padding: 15px;
+    }
+
+    .section3-h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .section3-text {
+        max-width: 300px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    input {
+        padding: 10px 20px 10px 10px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .send-btn {
+        padding: 9px 14px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

@@ -1,3 +1,4 @@
+import "../css/section7.css";
 const SectionSeven = () => {
     return (
         <div className='seven container'>

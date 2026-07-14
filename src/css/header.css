@@ -1,0 +1,142 @@
+/* HEADER STYLES */
+.header-main-div {
+    margin-block: 15px 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main-div img {
+    width: 200px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9093A6;
+    background-color: inherit;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.line-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(245, 238, 238);
+    border-radius: 24px;
+    text-shadow: rgba(0, 0, 0, 0.08);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #D4D7E5;
+    margin-inline: auto;
+}
+
+/* DRAWER STYLES */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.drawer {
+    position: fixed;
+    top: 0;
+    left: -350px;
+    right: auto;
+    width: 300px;
+    height: 100vh;
+    background: white;
+    z-index: 100;
+    padding: 20px;
+    transition: 0.3s ease;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.drawer.active {
+    left: 0;
+}
+
+@media(max-width:1200px) {}
+
+@media(max-width:992px) {}
+
+@media(max-width:768px) {
+    .header-main-div img {
+        margin-block: 8px 2px;
+        width: 170px;
+        height: 30px;
+    }
+
+    .header-buttons {
+        gap: 15px;
+    }
+
+    .line-btn {
+        width: 0;
+        height: 0;
+        border: none;
+        margin-right: 20px;
+    }
+
+    .drawer {
+        width: 230px;
+    }
+}
+
+@media(max-width:576px) {
+    .header-main-div img {
+        width: 150px;
+    }
+
+    .header-buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .drawer {
+        width: 190px;
+    }
+}
+
+@media(max-width:378px) {
+    .header-main-div {
+        margin-block: 6px 1px;
+    }
+
+    .header-main-div img {
+        width: 110px;
+    }
+
+    .header-buttons {
+        gap: 8px;
+    }
+
+    .btn {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .drawer {
+        width: 170px;
+    }
+}

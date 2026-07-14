@@ -1,5 +1,4 @@
-// import Icons from "../icons";
-
+import "../css/section3.css";
 const SectionThree = () => {
     return (
         <div className='section3'>

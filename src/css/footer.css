@@ -1,0 +1,159 @@
+.footer-main {
+    background-color: rgba(63, 66, 85, 1);
+    padding-block: 40px 10px;
+}
+
+.footer {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.footer-line {
+    width: auto;
+    border: 1px solid rgba(212, 215, 229, 1);
+    margin-block: 40px;
+}
+
+.descriptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+li {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(212, 215, 229, 1);
+    margin-top: 5px;
+}
+
+.last-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-media {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+}
+
+@media(max-width:1000px) {
+    .footer-main {
+        padding-block: 30px 10px;
+    }
+
+    .footer {
+        gap: 40px;
+    }
+
+    .footer-line {
+        margin-block: 30px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    .last-div {
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .footer-media {
+        gap: 10px;
+    }
+
+    .footer-nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer-nav a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:780px) {
+    .footer-main {
+        padding-block: 30px 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footer-line {
+        margin-block: 10px;
+    }
+
+    .descriptions {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .descriptions div {
+        text-align: center;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media(max-width:550px) {
+    .descriptions {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .last-div {
+        align-items: center;
+    }
+
+    .footer-media {
+        gap: 5px;
+    }
+
+    .footer-media img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer-nav {
+        display: flex;
+        gap: 5px;
+    }
+
+    .footer-nav a {
+        font-size: 6px;
+        font-weight: 400;
+    }
+}

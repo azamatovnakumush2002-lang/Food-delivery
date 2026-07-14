@@ -1,7 +1,8 @@
+import "../css/section5.css";
 const SectionFive = () => {
     return (
         <div className='section5-main'>
-            <div className='section5 container'>
+            <div className='section5'>
                 <div>
                     <div className='yellow'>
                         <h1>1</h1>
